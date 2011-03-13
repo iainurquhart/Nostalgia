@@ -1,0 +1,1 @@
+Control panel theme for EE2, with a hint of EE1.
