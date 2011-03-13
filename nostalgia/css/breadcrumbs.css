@@ -1,0 +1,16 @@
+#breadCrumb { font-size: 12px;
+	background: #ecf1f4;
+	border-bottom: 1px solid #c9cfd4;
+	padding-top: 0;
+	margin-bottom:20px;
+	
+}
+#breadCrumb ol {overflow: hidden; padding-top: 1px;}
+#breadCrumb ol li:first-child {display: none;}
+#breadCrumb li,
+#breadCrumb li a,
+#breadCrumb a:hover {color: #344149 !important; padding-top: 0 !important; margin-top: 0 !important; line-height:33px !important; padding: 0; margin: 0; font-weight: 200 !important;}
+#breadCrumb li {background: transparent url(../gfx/crumb_seperator.png) no-repeat 100% 40%; padding: 0px 20px 0px 0; }
+#breadCrumb li {}
+
+#breadCrumb li a {font-weight: 600 !important;}

@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^(..*)$ /themes/cp_themes/default/images/$1 [R]

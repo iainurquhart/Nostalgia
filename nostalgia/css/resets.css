@@ -1,0 +1,64 @@
+body {font-family: 'Helvetica Neue', Helvetica, Arial, "San-serif";}
+#branding, #search {display: none;}
+
+.button a, 
+.cp_button a, 
+#search form, 
+div.contentMenu,
+#mainContent .formArea, 
+#navigationTabs .first_level:not(.addTab),
+#accessoryTabs li, .heading,
+#navigationTabs li ul,
+.contentMenu ul {border-radius: 2px !important;}
+
+.button a, .cp_button a, #search form, div.contentMenu, #mainContent .formArea, #navigationTabs .first_level:not(.addTab) 
+{
+
+-webkit-border-top-left-radius: 20px !important;
+-webkit-border-top-right-radius: 20px !important;
+-moz-border-radius-topleft: 20px !important;
+-moz-border-radius-topright: 20px !important;
+border-top-left-radius: 20px !important;
+border-top-right-radius: 20px !important;
+}
+
+.heading h2, .heading
+{
+
+-webkit-border-top-left-radius: 5px !important;
+-webkit-border-top-right-radius: 5px !important;
+-moz-border-radius-topleft: 5px !important;
+-moz-border-radius-topright: 5px !important;
+border-top-left-radius: 5px !important;
+border-top-right-radius: 5px !important;
+border-bottom: 1px solid #fff;
+}
+
+#mainWrapper {position: relative;}
+.sorting_disabled:hover {cursor: default;}
+
+#mainContent {}
+
+.heading h2 {padding: 12px 17px; background: #718D9E !important; text-shadow: 0 1px 0px rgba(0,0,0,0.6); font-weight: 100 !important; letter-spacing: 1px;}
+#mainContent .formArea h2 {font-weight: 100 !important; letter-spacing: 1px;}
+
+#accessoriesDiv {overflow: hidden;}
+
+#sidebarContent {background:  transparent; padding-left: 20px; padding-bottom: 40px;}
+
+body, html, #footer,#mainMenu {background: #27343c;}
+#templateGroups .groupList ul {height: auto;}
+
+table.mainTable th {height: 21px; font-weight: 100 !important; letter-spacing: 1px;}
+table.mainTable td {height: 21px;}
+table.mainTable a {font-weight: bold;}
+
+#publish_submit_buttons {clear: none !important;}
+
+#activeUser {overflow: hidden;
+	max-height: 34px;
+	min-height: 34px; padding: 0; margin: 0; border-bottom: 1px solid #718d9e; line-height: 33px;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.3);}
+	
+	#footer {text-align: left; padding: 30px;}
+#footer img {display: none;}

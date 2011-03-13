@@ -1,0 +1,47 @@
+
+#activeUser,
+table.mainTable th.headerSortDown,
+table.mainTable .headerSortUp,
+.submit,
+#navigationTabs li li.hover,
+#navigationTabs ul li li.hover,
+#navigationTabs li li.parent:focus > a, 
+#navigationTabs li li.parent.active > a,
+#notice_flag{
+	background: #1D7FC6; /* old browsers */
+	
+}
+
+.notice_texts { background: #1575AF;}
+
+.notice_custom {}
+.notice_error {background: #AA0303;}
+
+
+#notice_counts span:hover, #active_notice {background: transparent;}
+
+table.mainTable th.headerSortDown,
+table.mainTable th.headerSortUp {border-color: transparent; background:  #718D9E; background-repeat: no-repeat; background-position: 100% 50%; text-shadow: 0 1px 0 rgba(0,0,0,0.3);}
+
+table.mainTable th.sorting {background:  #344149 url('../gfx/th_sorting.png') no-repeat 100% 50%;}
+table.mainTable th.headerSortUp {background-image: url('../gfx/th_sorting_up.png');}
+table.mainTable th.headerSortDown {background-image: url('../gfx/th_sorting_down.png');}
+
+.contentMenu li a:hover,
+.pageContents a:link, 
+.pageContents a:visited,
+#sideBar a,
+#sideBar li a:hover,
+#sideBar li a:link, 
+#sideBar li a:visited,
+#templateGroups .groupList li a.templateGroupName:hover,
+span.defaultIndicator {color: #1D7FC6; border-color: #1D7FC6;}
+#templateGroups .groupList li a.templateGroupName:hover {border-color: #fff; border-bottom: 1px solid #D2D7DB;}
+
+#templateGroups span.defaultGroupName {color: #000;}
+
+.contentMenu li a:hover {border-bottom-color: #D0D7DF; border-top-color: #fff;}
+
+#navigationTabs li #addQuickTab, #navigationTabs li #addQuickTab:link {color: #fff;}
+
+#mainWrapper {}

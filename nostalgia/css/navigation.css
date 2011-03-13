@@ -1,0 +1,62 @@
+/*
+	MAIN MENU MODS
+*/
+#mainMenu {
+	padding: 26px 20px 8px 20px; 
+	margin-bottom: 0px; 
+	background: #344149 url(../gfx/header_bg.png) repeat-x 0 0;
+	border-bottom: 1px solid #5c6773;
+}
+#mainMenu:hover {opacity: 1}
+#mainMenu ul#navigationTabs {margin: 0; padding: 0;}
+#navigationTabs li ul a {padding: 7px 15px;}
+#navigationTabs li a.first_level,
+#navigationTabs li a.first_level:link,
+#navigationTabs li a.first_level:visited {
+    background:         transparent;
+    color:              #fff;
+    display:            block;
+    letter-spacing:     normal;
+    font-size:          13px;
+    height:             1.1em;
+    padding:            3px 8px 4px 8px;
+    margin:             0 4px 13px 4px;
+    border-bottom:      none;
+    text-decoration:    none;
+    text-shadow: 0 1px 2px #000;
+}
+#navigationTabs > li.parent {background-image: none; }
+#navigationTabs > li.parent  a.first_level{ padding-right: 16px !important;  background: transparent url(../gfx/arrow_down.gif) no-repeat 96.5% 50%; margin-right: 12px; }
+#navigationTabs > li.parent.active {background: #fff; margin-top: -6px !important}
+#navigationTabs li ul ul {margin-top: -26px !important}
+#navigationTabs > li.parent.active > a {color: #000;  padding-top: 9px; margin-bottom: 2px; text-shadow: 0 1px 2px #fff;}
+#navigationTabs > li.parent.active {
+	-webkit-border-top-left-radius: 3px !important;
+	-webkit-border-top-right-radius: 3px !important;
+	-moz-border-radius-topleft: 3px !important;
+	-moz-border-radius-topright: 3px !important;
+	border-top-left-radius: 3px !important;
+	border-top-right-radius: 3px !important;
+}
+#navigationTabs > li.parent.active > ul {
+	padding: 10px 0;
+	-webkit-border-radius: 3px !important;
+	-webkit-border-top-left-radius: 0 !important;
+	-moz-border-radius: 3px !important;
+	-moz-border-radius-topleft: 0 !important;
+	border-radius: 3px !important;
+	border-top-left-radius: 0 !important;
+	-webkit-box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+}
+#navigationTabs li > ul,
+#navigationTabs li li { background: #fff;margin: 0; padding: 0;}
+#navigationTabs li > ul {}
+#navigationTabs ul li.nav_divider {height: 1px; overflow: hidden; padding: 0; margin: 0; background: none; border: none; background: #fafafa;}
+
+#navigationTabs li.parent:focus > a:after,
+#navigationTabs li.parent.active > a:after,
+#navigationTabs li li.parent:focus > a:after,
+#navigationTabs li li.parent.active > a:after{
+	display:none;
+}
+
